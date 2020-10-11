@@ -10,9 +10,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'ZoomcarSDK.framework'
   s.source           = { :http => 'https://github.com/ZoomCar/iOS-SDK-Public/raw/main/demo-0.0.1/ZoomcarSDK.zip' }
   s.ios.deployment_target = '10.0'
-  s.source_files = 'ZoomcarSDK/ZoomcarSDK/**/*.{swift}'
-  s.resources = ['ZoomcarSDK/ZoomcarSDK/**/*.storyboard', 'ZoomcarSDK/ZoomcarSDK/**/*.xcassets', 'ZoomcarSDK/ZoomcarSDK/**/*.xcdatamodeld', 'ZoomcarSDK/ZoomcarSDK/**/*.xib', 'ZoomcarSDK/ZoomcarSDK/**/*.png', 'ZoomcarSDK/ZoomcarSDK/**/*.ttf']
-
   s.swift_version = '5.0'
   s.dependency 'Alamofire', '~> 4.9.1'
   s.dependency 'AFNetworking', '~> 4.0'
