@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'ZoomcarSDK is to verify the user driving license and fill the checklist'
  
   s.description      = 'Two major features is being added in this versiom. 1. Verify User Profile using Idfy. 2. Fille the start and end checklist' 
-  s.homepage         = 'https://github.com/ZoomCar/ios-sdk'
+  s.homepage         = 'https://github.com/ZoomCar/iOS-SDK-Public'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'mobileapps@zoomcar.com' }
   s.ios.vendored_frameworks = 'ZoomcarSDK.framework'
