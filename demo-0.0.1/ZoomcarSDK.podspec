@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'mobileapps@zoomcar.com' }
   s.ios.vendored_frameworks = 'ZoomcarSDK.framework'
-  s.source           = { :http => 'https://github.com/ZoomCar/iOS-SDK-Public/blob/main/demo-0.0.1/ZoomcarSDK.zip' }
- 
+  s.source           = { :http => 'https://github.com/ZoomCar/iOS-SDK-Public/raw/main/demo-0.0.1/ZoomcarSDK.zip' }
   s.ios.deployment_target = '10.0'
   s.source_files = 'ZoomcarSDK/ZoomcarSDK/**/*.{swift}'
   s.resources = ['ZoomcarSDK/ZoomcarSDK/**/*.storyboard', 'ZoomcarSDK/ZoomcarSDK/**/*.xcassets', 'ZoomcarSDK/ZoomcarSDK/**/*.xcdatamodeld', 'ZoomcarSDK/ZoomcarSDK/**/*.xib', 'ZoomcarSDK/ZoomcarSDK/**/*.png', 'ZoomcarSDK/ZoomcarSDK/**/*.ttf']
