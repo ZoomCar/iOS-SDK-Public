@@ -11,10 +11,9 @@ Simply add the following line to your Podfile and install the pod.
 add Source 
 ```
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/ZoomCar/ios-cocoapod-specs.git'
 ```
 ```
-pod 'ZoomcarSDK'
+pod 'ZoomcarSDK', '~> 0.0.3'
 ```
 
 ## Usage
