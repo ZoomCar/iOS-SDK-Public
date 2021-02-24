@@ -24,6 +24,7 @@ Import ZoomcarSDK
 
 Initialise the SDK using the following code
 ```
+Zoomcar.setup()
 Zoomcar.setMerchantId("")
 ```
 
@@ -45,19 +46,6 @@ public struct ZoomcarUser {
 ```
 
 Other Methods 
-```
-///Triggers the Zoomcar Setup Before Use
-public static func setup()
-```
-
-```
-///Set the Merchant Id for.Zoomcar
-public static func setMerchantId(_ id: String)
-
-///Set the user for.Zoomcar
-public static func setUser(_ user: ZoomcarUser)
-```
-
 ```
 /// Triggers the Zoomcar Booking flow Post Booking To Start the Trip
 ///
