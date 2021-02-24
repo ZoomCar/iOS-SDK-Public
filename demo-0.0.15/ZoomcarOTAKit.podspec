@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.platform = :ios, '10.0'
   s.swift_version = '5.0'
   s.dependency 'Alamofire', '~> 4.9.1'
-  s.ios.dependency 'AFNetworking', '~> 4.0',:modular_headers => true
+  s.ios.dependency 'AFNetworking', '~> 4.0'
   s.dependency 'PKHUD', '~> 5.3.0'
   s.dependency 'MaterialComponents/ShadowLayer', '= 116.0'
   s.dependency 'MaterialComponents/ShadowElevations', '= 116.0'
-  
+  s.static_framework = true
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'  
 end
