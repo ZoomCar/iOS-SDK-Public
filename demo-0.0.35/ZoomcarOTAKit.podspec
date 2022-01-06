@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #s.ios.deployment_target = '10.0'
   s.platform = :ios, '12.0'
   s.swift_version = '5.0'
-  s.dependency 'Alamofire', '~> 4.9.1'
+  s.dependency 'Alamofire', '~> 5.5'
   s.ios.dependency 'AFNetworking', '~> 4.0'
-  s.dependency 'PKHUD', '~> 5.3.0'
+  s.dependency 'PKHUD', '~> 5.0'
   s.dependency 'MaterialComponents/ShadowLayer', '= 116.0'
   s.dependency 'MaterialComponents/ShadowElevations', '= 116.0'
   s.pod_target_xcconfig = {
