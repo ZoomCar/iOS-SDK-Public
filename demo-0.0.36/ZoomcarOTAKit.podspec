@@ -21,6 +21,10 @@ Pod::Spec.new do |s|
   s.dependency 'PKHUD', '~> 5.0'
   s.dependency 'MaterialComponents/ShadowLayer', '= 116.0'
   s.dependency 'MaterialComponents/ShadowElevations', '= 116.0'
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64' }
   
   s.frameworks = 'Foundation', 'UIKit', 'CoreData'  
 end
