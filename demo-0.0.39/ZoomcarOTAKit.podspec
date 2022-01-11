@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   # s.resources = [ "ZoomcarSDK.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
   s.source           = { :http => 'https://github.com/ZoomCar/iOS-SDK-Public/raw/main/demo-0.0.39/ZoomcarSDK.zip' }
   #s.ios.deployment_target = '10.0'
+  s.static_framework = true
   s.platform = :ios, '12.0'
   s.swift_version = '5.0'
   s.dependency 'Alamofire', '~> 4.9.1'
