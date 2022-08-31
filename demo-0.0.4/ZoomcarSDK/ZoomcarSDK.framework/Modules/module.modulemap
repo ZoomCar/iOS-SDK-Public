@@ -1,0 +1,11 @@
+framework module ZoomcarSDK {
+  umbrella header "ZoomcarSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ZoomcarSDK.Swift {
+    header "ZoomcarSDK-Swift.h"
+    requires objc
+}

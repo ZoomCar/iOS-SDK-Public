@@ -1,0 +1,91 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZoomcarSDK
+import AFNetworking
+import AVFoundation
+import Alamofire
+import CoreData
+import CoreLocation
+import Foundation
+import MaterialComponents
+import MessageUI
+import PKHUD
+import Photos
+import QuartzCore
+import SafariServices
+import Swift
+import UIKit.UIGestureRecognizerSubclass
+import UIKit
+import UserNotifications
+@_exported import ZoomcarSDK
+import _Concurrency
+public enum UploadStatus : Swift.String {
+  case uploaded
+  case uploading
+  case failed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ZFontType : Swift.Int {
+  case display
+  case h1
+  case h2
+  case h3
+  case h4
+  case h5
+  case h6
+  case title1
+  case title2
+  case body1
+  case body2
+  case button1
+  case button2
+  case overline
+  case caption
+  case subHead
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIColor {
+  convenience public init?(hexaString: Swift.String?)
+}
+public struct ZoomcarUser {
+  public init(name: Swift.String, authToken: Swift.String, phoneNumber: Swift.String, email: Swift.String, isProfileUploadComplete: Swift.Bool)
+}
+public protocol ZoomcarDelegate : AnyObject {
+  func zoomcarChecklistStatus(_ success: Swift.Bool, _ bookingId: Swift.String)
+  func zoomcarProfileVerificationStatus(_ success: Swift.Bool)
+  func zoomcarValidationFailed()
+}
+@objc @_inheritsConvenienceInitializers public class Zoomcar : ObjectiveC.NSObject {
+  public static func setup()
+  public static func setMerchantId(_ id: Swift.String)
+  public static func setUser(_ user: ZoomcarSDK.ZoomcarUser)
+  public static func showChecklist(bookingId: Swift.String, customerCare: Swift.String?, viewController: UIKit.UIViewController, delegate: ZoomcarSDK.ZoomcarDelegate? = nil)
+  public static func showUserProfile(viewController: UIKit.UIViewController, delegate: ZoomcarSDK.ZoomcarDelegate? = nil)
+  public static func shouldRetryChecklistImageUpload(for bookingId: Swift.String) -> Swift.Bool
+  public static func uploadChecklistImages(for bookingId: Swift.String)
+  public static func enableLogging(_ enable: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarStyle: UIKit.UIViewController? {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarHidden: UIKit.UIViewController? {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+}
+extension ZoomcarSDK.UploadStatus : Swift.Equatable {}
+extension ZoomcarSDK.UploadStatus : Swift.Hashable {}
+extension ZoomcarSDK.UploadStatus : Swift.RawRepresentable {}
+extension ZoomcarSDK.ZFontType : Swift.Equatable {}
+extension ZoomcarSDK.ZFontType : Swift.Hashable {}
+extension ZoomcarSDK.ZFontType : Swift.RawRepresentable {}
