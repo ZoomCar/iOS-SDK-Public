@@ -1,0 +1,443 @@
+@font-face {
+    font-family: z-icons;
+    src: url("z-icons.eot");src: url("z-icons.eot?4b670fe6#iefix") format("embedded-opentype"),
+             url("z-icons.woff2?4b670fe6") format("woff2"),
+             url("z-icons.woff?4b670fe6") format("woff"),
+             url("z-icons.ttf?4b670fe6") format("truetype"),
+             url("z-icons.svg?4b670fe6#z-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="z"], [class*=" z"] {
+    font-family: 'z-icons' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.z-aadhar_card::before {
+    content: "\ea01";
+}
+
+.z-add_photo::before {
+    content: "\ea02";
+}
+
+.z-airbag::before {
+    content: "\ea03";
+}
+
+.z-ambulance::before {
+    content: "\ea04";
+}
+
+.z-arrow_down::before {
+    content: "\ea05";
+}
+
+.z-arrow_left::before {
+    content: "\ea06";
+}
+
+.z-arrow_left_bottom::before {
+    content: "\ea07";
+}
+
+.z-arrow_left_top::before {
+    content: "\ea08";
+}
+
+.z-arrow_right::before {
+    content: "\ea09";
+}
+
+.z-arrow_right_bottom::before {
+    content: "\ea0a";
+}
+
+.z-arrow_right_top::before {
+    content: "\ea0b";
+}
+
+.z-arrow_up::before {
+    content: "\ea0c";
+}
+
+.z-battery::before {
+    content: "\ea0d";
+}
+
+.z-boot::before {
+    content: "\ea0e";
+}
+
+.z-call::before {
+    content: "\ea0f";
+}
+
+.z-camera::before {
+    content: "\ea10";
+}
+
+.z-car_cancel::before {
+    content: "\ea11";
+}
+
+.z-check_empty::before {
+    content: "\ea12";
+}
+
+.z-check_selected::before {
+    content: "\ea13";
+}
+
+.z-chevron_down::before {
+    content: "\ea14";
+}
+
+.z-chevron_left::before {
+    content: "\ea15";
+}
+
+.z-chevron_right::before {
+    content: "\ea16";
+}
+
+.z-chevron_up::before {
+    content: "\ea17";
+}
+
+.z-chevrons_down::before {
+    content: "\ea18";
+}
+
+.z-chevrons_left::before {
+    content: "\ea19";
+}
+
+.z-chevrons_right::before {
+    content: "\ea1a";
+}
+
+.z-chevrons_up::before {
+    content: "\ea1b";
+}
+
+.z-circle::before {
+    content: "\ea1c";
+}
+
+.z-circle_arrow_down::before {
+    content: "\ea1d";
+}
+
+.z-circle_arrow_left::before {
+    content: "\ea1e";
+}
+
+.z-circle_arrow_right::before {
+    content: "\ea1f";
+}
+
+.z-circle_arrow_up::before {
+    content: "\ea20";
+}
+
+.z-circle_cancel::before {
+    content: "\ea21";
+}
+
+.z-circle_error::before {
+    content: "\ea22";
+}
+
+.z-circle_help::before {
+    content: "\ea23";
+}
+
+.z-circle_info::before {
+    content: "\ea24";
+}
+
+.z-circle_ok::before {
+    content: "\ea25";
+}
+
+.z-clipboard::before {
+    content: "\ea26";
+}
+
+.z-close::before {
+    content: "\ea27";
+}
+
+.z-coupon::before {
+    content: "\ea28";
+}
+
+.z-delivery::before {
+    content: "\ea29";
+}
+
+.z-deposit::before {
+    content: "\ea2a";
+}
+
+.z-directions::before {
+    content: "\ea2b";
+}
+
+.z-disability::before {
+    content: "\ea2c";
+}
+
+.z-distance::before {
+    content: "\ea2d";
+}
+
+.z-download::before {
+    content: "\ea2e";
+}
+
+.z-download_doc::before {
+    content: "\ea2f";
+}
+
+.z-driving_license::before {
+    content: "\ea30";
+}
+
+.z-engine::before {
+    content: "\ea31";
+}
+
+.z-escooter::before {
+    content: "\ea32";
+}
+
+.z-fall::before {
+    content: "\ea33";
+}
+
+.z-fire::before {
+    content: "\ea34";
+}
+
+.z-fuel_empty::before {
+    content: "\ea35";
+}
+
+.z-fuel_selected::before {
+    content: "\ea36";
+}
+
+.z-fuel_type::before {
+    content: "\ea37";
+}
+
+.z-gallery::before {
+    content: "\ea38";
+}
+
+.z-hard_brake::before {
+    content: "\ea39";
+}
+
+.z-helmet::before {
+    content: "\ea3a";
+}
+
+.z-horn::before {
+    content: "\ea3b";
+}
+
+.z-hospital::before {
+    content: "\ea3c";
+}
+
+.z-hotel::before {
+    content: "\ea3d";
+}
+
+.z-instructions::before {
+    content: "\ea3e";
+}
+
+.z-insurance::before {
+    content: "\ea3f";
+}
+
+.z-license::before {
+    content: "\ea40";
+}
+
+.z-light::before {
+    content: "\ea41";
+}
+
+.z-lock::before {
+    content: "\ea42";
+}
+
+.z-my_location::before {
+    content: "\ea43";
+}
+
+.z-no_parking::before {
+    content: "\ea44";
+}
+
+.z-ok::before {
+    content: "\ea45";
+}
+
+.z-parking::before {
+    content: "\ea46";
+}
+
+.z-passport::before {
+    content: "\ea47";
+}
+
+.z-patient::before {
+    content: "\ea48";
+}
+
+.z-card::before {
+    content: "\ea49";
+}
+
+.z-mobile_wallet::before {
+    content: "\ea4a";
+}
+
+.z-netbanking::before {
+    content: "\ea4b";
+}
+
+.z-pay_later::before {
+    content: "\ea4c";
+}
+
+.z-payment::before {
+    content: "\ea4d";
+}
+
+.z-upi::before {
+    content: "\ea4e";
+}
+
+.z-radio_empty::before {
+    content: "\ea4f";
+}
+
+.z-radio_selected::before {
+    content: "\ea50";
+}
+
+.z-rapid_acc::before {
+    content: "\ea51";
+}
+
+.z-refresh::before {
+    content: "\ea52";
+}
+
+.z-remote::before {
+    content: "\ea53";
+}
+
+.z-reward::before {
+    content: "\ea54";
+}
+
+.z-search::before {
+    content: "\ea55";
+}
+
+.z-seats::before {
+    content: "\ea56";
+}
+
+.z-speed_limit::before {
+    content: "\ea57";
+}
+
+.z-swap::before {
+    content: "\ea58";
+}
+
+.z-tag::before {
+    content: "\ea59";
+}
+
+.z-time::before {
+    content: "\ea5a";
+}
+
+.z-timer::before {
+    content: "\ea5b";
+}
+
+.z-top_speed::before {
+    content: "\ea5c";
+}
+
+.z-torque::before {
+    content: "\ea5d";
+}
+
+.z-transmission_a::before {
+    content: "\ea5e";
+}
+
+.z-transmission_m::before {
+    content: "\ea5f";
+}
+
+.z-upload::before {
+    content: "\ea60";
+}
+
+.z-voter_id::before {
+    content: "\ea61";
+}
+
+.z-walk::before {
+    content: "\ea62";
+}
+
+.z-warning::before {
+    content: "\ea63";
+}
+
+.z-whatsapp::before {
+    content: "\ea64";
+}
+
+.z-z_coin::before {
+    content: "\ea65";
+}
+
+.z-z_coin_mark::before {
+    content: "\ea66";
+}
+
+.z-z_coin_pin::before {
+    content: "\ea67";
+}
+
+.z-z_coin_trophy::before {
+    content: "\ea68";
+}
+
+.z-z_coins::before {
+    content: "\ea69";
+}
+
+.z-z_credits::before {
+    content: "\ea6a";
+}
+
