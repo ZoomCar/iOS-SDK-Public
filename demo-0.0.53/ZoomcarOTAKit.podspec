@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zoomcar' => 'mobileapps@zoomcar.com' }
   s.ios.vendored_frameworks = 'ZoomcarSDK.xcframework'
-  s.resource_bundle = {
-      'ZoomcarSDKBundle' => ['ZoomcarSDK.xcframework/ZoomcarSDKBundle.bundle/*.{nib,car,storyboardc,ttf,momd}']
-  }
+  # s.resource_bundle = {
+  #     'ZoomcarSDKBundle' => ['ZoomcarSDK.xcframework/ZoomcarSDKBundle.bundle/*.{nib,car,storyboardc,ttf,momd}']
+  # }
   # s.resources = [ "ZoomcarSDK.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
   s.source           = { :http => 'https://github.com/ZoomCar/iOS-SDK-Public/raw/main/demo-0.0.53/ZoomcarSDK.zip' }
   #s.ios.deployment_target = '10.0'
