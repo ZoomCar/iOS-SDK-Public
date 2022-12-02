@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Zoomcar' => 'mobileapps@zoomcar.com' }
   s.ios.vendored_frameworks = 'ZoomcarSDK.xcframework'
   s.resource_bundle = {
-      'ZoomcarSDKBundle' => ['ZoomcarSDK.xcframework/**/ZoomcarSDKBundle.bundle/*.{nib,car,storyboardc,ttf,momd}']
+      'ZoomcarSDKBundle' => ['ZoomcarSDK.xcframework/ios-arm64/ZoomcarSDK.framework/ZoomcarSDKBundle.bundle/*.{nib,car,storyboardc,ttf,momd}']
   }
   # s.resources = [ "ZoomcarSDK.framework/ZoomcarSDKBundle.bundle/*.{nib,car}" ]
   s.source           = { :http => 'https://github.com/ZoomCar/iOS-SDK-Public/raw/main/demo-0.0.54/ZoomcarSDK.zip' }
