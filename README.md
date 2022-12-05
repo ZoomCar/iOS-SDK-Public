@@ -13,7 +13,20 @@ add Source
 source 'https://github.com/CocoaPods/Specs.git'
 ```
 ```
-pod 'ZoomcarOTAKit', '~> 0.0.14'
+platform :ios, '13.0'
+
+target 'AppTarget' do
+  # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks! :linkage => :static
+    pod 'ZoomcarOTAKit', '0.0.55'
+end
+
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+  end
+end
+
 ```
 
 ## Usage
