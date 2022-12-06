@@ -1,7 +1,7 @@
 # ios-sdk
 iOS SDK for third party
 
-### Swift 5, iOS 10+
+### Swift 5, iOS 13+
 
 ## Installation 
 [CocoaPods](http://cocoapods.org) is the recommended way to add Zoomcar ios-sdk to your project.
